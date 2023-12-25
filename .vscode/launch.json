@@ -9,7 +9,8 @@
       "type": "chrome",
       "webRoot": "${workspaceFolder}",
       "preLaunchTask": "npm: start",
-      "url": "http://localhost:4200/"
+      "url": "http://localhost:4200/",
+      
     },
     {
       "name": "Attach to Chrome",
