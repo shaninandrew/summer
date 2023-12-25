@@ -10,7 +10,7 @@ exports.AppComponent = void 0;
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var router_1 = require("@angular/router");
-var platform_browser_1 = require("@angular/platform-browser");
+//import { BrowserModule } from '@angular/platform-browser';
 var forms_1 = require("@angular/forms");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
@@ -20,7 +20,7 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'app-root',
             standalone: true,
-            imports: [common_1.CommonModule, router_1.RouterOutlet, platform_browser_1.BrowserModule, forms_1.FormsModule],
+            imports: [common_1.CommonModule, router_1.RouterOutlet, forms_1.FormsModule],
             templateUrl: './app.component.html',
             styleUrl: './app.component.css'
         })
